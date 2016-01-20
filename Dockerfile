@@ -49,4 +49,4 @@ ADD ./scripts/set_environment_variables.sh /scripts/set_environment_variables.sh
 RUN bash /scripts/set_environment_variables.sh
 
 # Start PHP-FPM
-ENTRYPOINT ['/usr/sbin/php5-fpm', '-F']
+ENTRYPOINT ["/usr/sbin/php5-fpm", "-F"]
