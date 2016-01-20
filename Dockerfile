@@ -48,10 +48,5 @@ VOLUME ["/data"]
 
 EXPOSE 9000
 
-# Run script for configure the environments variables
-ADD ./scripts/set_environment_variables.sh /scripts/set_environment_variables.sh
-
-RUN bash /scripts/set_environment_variables.sh
-
 # Start PHP-FPM
 ENTRYPOINT ["/usr/sbin/php5-fpm", "-F"]
