@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Source: 
+# Source: http://stackoverflow.com/a/28372385/5684411
 
 # Function to update the fpm configuration to make the service environment variables available
 function setEnvironmentVariable() {
